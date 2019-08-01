@@ -222,19 +222,6 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="profil.php">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profil
-                </a>
-                <a class="dropdown-item" href="portofolio.php">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Portofolio
-                </a>
-                <a class="dropdown-item" href="ubah_password.php">
-                  <i class="fas fa-key fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Ubah Password
-                </a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
@@ -270,6 +257,7 @@
                       <th>Jurusan</th>
                       <th>Asal Sekolah</th>
                       <th>Nilai UN</th>
+                      <th>Rata2</th>
                       <th>Action</th>
                     </tr>
                   </thead>
@@ -282,6 +270,7 @@
                       <th>Jurusan</th>
                       <th>Asal Sekolah</th>
                       <th>Nilai UN</th>
+                      <th>Rata2</th>
                       <th>Action</th>
                     </tr>
                   </tfoot>
@@ -297,6 +286,13 @@
                       foreach ($resultPending as $row2) {
 
                         $jenis_kelamin = $row2['jk']=='P'?'Perempuan':'Laki laki';
+                        $s1 = $row2['s1'];
+                        $s2 = $row2['s2'];
+                        $s3 = $row2['s3'];
+                        $s4 = $row2['s4'];
+                        $s5 = $row2['s5'];
+                        $s6 = $row2['s6'];
+                        $rata2 = ($s1 + $s2 + $s4 + $s5 + $s6) / 6;
 
                     ?>
 
@@ -308,6 +304,7 @@
                       <td><?=$row2['jurusan'];?></td>
                       <td><?=$row2['asal_sekolah'];?></td>
                       <td><?=$row2['un'];?></td>
+                      <td><?php echo substr($rata2, 0, -11);?></td>
                       <td><a href="../../controller/admin/setujui_calon.php?id=<?=$row2['id_pendaftaran'];?>" title="Setujui Calon Siswa" class="btn btn-success btn-sm btn-circle">
                             <i class="fas fa-check"></i>
                           </a>

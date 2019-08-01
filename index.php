@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Sekolah Digital Talent</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
 </head>
 <body>
 
@@ -68,9 +74,6 @@
             <li class="nav-item active" style="padding-left:10px;padding-right:10px">
               <a class="nav-link" href="view/rekapitulasi.php">Rekapitulasi</a>
             </li>
-            <li class="nav-item active" style="padding-left:10px;padding-right:10px">
-              <a class="nav-link" href="#">Tentang Sekolah</a>
-            </li>
             
           </ul>
           <form class="form-inline my-0 my-lg-0" action="data_produk.php" method="get">
@@ -106,7 +109,7 @@
                 <h6>Sekolah Terfavorit</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Sekolah favorit dengan berbagai jurusan kejuruan yang sudah terakreditasi A</p>
               </div>
             </div>
           </div>
@@ -114,10 +117,10 @@
             <div class="contentini"  style="background-color: #f1f1f2;padding-top: 30px;padding-bottom: 30px">
               <h1 style="font-size:60px"><i class="fa fa-graduation-cap"></i></h1>
               <div class="judul">
-                <h6>Sekolah Terfavorit</h6>
+                <h6>Lulusan Terbaik</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Menghasilkan lulusan dengan skill dan kemampuan terbaik serta siap kerja</p>
               </div>
             </div>
           </div>
@@ -125,10 +128,10 @@
             <div class="contentini"  style="background-color: #f1f1f2;padding-top: 30px;padding-bottom: 30px">
               <h1 style="font-size:60px"><i class="fa fa-book"></i></h1>
               <div class="judul">
-                <h6>Sekolah Terfavorit</h6>
+                <h6>Kurikulum Teruji</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Kurikulum dan mata pelajaran yang selalu update mengikuti perkembangan zaman</p>
               </div>
             </div>
           </div>
@@ -136,10 +139,10 @@
             <div class="contentini"  style="background-color: #f1f1f2;padding-top: 30px;padding-bottom: 30px">
               <h1 style="font-size:60px"><i class="fa fa-language"></i></h1>
               <div class="judul">
-                <h6>Sekolah Terfavorit</h6>
+                <h6>Ekstrakurikuler Bahasa</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Kegiatan tambahan ekstrakurikuler belajar bahasa asing dengan fasilitas lab lengkap</p>
               </div>
             </div>
           </div>
@@ -147,10 +150,10 @@
             <div class="contentini"  style="background-color: #f1f1f2;padding-top: 30px;padding-bottom: 30px">
               <h1 style="font-size:60px"><i class="fa fa-money"></i></h1>
               <div class="judul">
-                <h6>Sekolah Terfavorit</h6>
+                <h6>Beasiswa Prestasi</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Dapatkan bantuan beasiswa bagi yang kurang mampu, serta jalur prestasi & bebas biaya lainnya</p>
               </div>
             </div>
           </div>
@@ -158,10 +161,10 @@
             <div class="contentini"  style="background-color: #f1f1f2;padding-top: 30px;padding-bottom: 30px">
               <h1 style="font-size:60px"><i class="fa fa-bus"></i></h1>
               <div class="judul">
-                <h6>Sekolah Terfavorit</h6>
+                <h6>Tempat Strategis</h6>
               </div>
               <div class="isisection">
-                <p style="font-size:13px">Sekolah Terfavorit detail detail detail detail </p>
+                <p style="font-size:13px;padding-left: 10px;padding-right: 10px;">Letak sekolah di tengah kota, sehingga akses ke tempat publik sangat mudah</p>
               </div>
             </div>
           </div>
@@ -170,7 +173,7 @@
     </div>
     <!-- SECTION KELEBIHAN DIAKHIRI -->
     <!-- SECTION TENTANG DIMULAI -->
-    <div class="section" id="profil" style="padding-bottom: 30px">
+    <div class="section" id="profil" style="padding-bottom: 0px">
       <div class="container-fluid" style="background-color: #343a40; color:white">
         <div class="row">
           <div class="col-md-6" style="border:1px solid #343a40;background-image: url('assets/img/dts2/7.jpg');background-size:cover;background-position:center center; background-repeat: no-repeat;">
@@ -182,11 +185,11 @@
             <div style="padding-bottom: 20px;padding-top: 30px">
 
               <h5 style="padding-bottom: 10px">Digital Talent Schoolarship</h5>
-              <p>Test Test Test Test Test </p>
-              <p>Test Test Test Test Test </p>
-              <p>Test Test Test Test Test </p>
-              <p>Test Test Test Test Test </p>
-              <p><button class="btn btn-dark btn-outline-light">Daftar Sekarang</button></p>
+              <p style="font-size:14px">Digital Talent Schoolarship merupakan salah satu sekolah swasta terfavorit di kota Yogyakarta yang berfokus pada pengembangan Sumber Daya Manusia terutama di bidang Teknologi Terapan.</p>
+              <p style="font-size:14px">Kami membuka beberapa jurusan seperti Multimedia, Teknik Komputer Jaringan, Rekayasa Perangkat Lunak, dan lain-lain yang semua sudah terakreditasi A dan teruji secara internasional.</p>
+              <p style="font-size:14px">Meskipun begitu, kami banyak menawarkan keuntungan bagi Calon Siswa yang mendaftar di sekolah kami dengan fasilitas - fasilitas sekolah yang lengkap, potongan biaya administrasi, bantuan beasiswa, dan penawaran menarik lainnya.</p>
+              <p style="font-size:14px">Ayo gabung sekarang, selamat berjuang untuk masa depan</p>
+              <p><a href="pendaftaran.php"><button class="btn btn-dark btn-outline-light">Daftar Sekarang</button></a></p>
             </div>
           </div>
         </div>
@@ -236,6 +239,85 @@
       </div>
     </div>
     <!-- SECTION GALERI DIAKHIRI -->
+    <!-- SECTION BLOG DIMULAI -->
+    <div class="section" style="padding-top:30px;padding-bottom: 30px">
+      <div class="container text-center" style="padding-top: 10px">
+        <div class="section-headers">
+            <h3 style="padding-bottom: 5px">Blog</h3>
+            <span style="font-size:20px;color:#238c99">------ <i class="fa fa-graduation-cap"></i> ------</span>
+            <p style="padding-top: 10px">Ikuti kabar berita menarik dan terupdate tentang lingkungan dan kegiatan sekolah Digital Talent Schoolarship.</p>
+          </div>
+        <div class="row" style="padding-top: 30px">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="assets/img/dts/P_20190701_082225.jpg" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Artikel blog kegiatan sekolah 1. Selamat datang di artikel kegiatan terbaru.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Selengkapnya</button>
+                    </div>
+                    <small class="text-muted">1 hari yang lalu</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+
+            
+            
+            <div class="col-md-3">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="assets/img/dts/P_20190701_082225.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Artikel blog kegiatan sekolah 2. Selamat datang di artikel kegiatan terbaru.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Selengkapnya</button>
+                    </div>
+                    <small class="text-muted">2 hari yang lalu</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col-md-3">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="assets/img/dts/P_20190701_082225.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Artikel blog kegiatan sekolah 3 Selamat datang di artikel kegiatan terbaru.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Selengkapnya</button>
+                    </div>
+                    <small class="text-muted">3 hari yang lalu</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="assets/img/dts/P_20190701_082225.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">Artikel blog kegiatan sekolah 4. Selamat datang di artikel kegiatan terbaru.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Selengkapnya</button>
+                    </div>
+                    <small class="text-muted">4 hari yang lalu</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- SECTION BLOG DIAKHIRI -->
 
       <hr>
 

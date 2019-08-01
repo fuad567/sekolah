@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Latihan Pertemuan ke-15</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
   <script type="text/javascript" src="../assets/js/jquery-2.1.1.js"></script>
   <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico"/>
 </head>
 <body>
   
@@ -75,9 +81,6 @@
             <li class="nav-item active" style="background-color:#00004d;color:white;padding-top:10px;margin-top:-10px;margin-bottom:-10px;padding-left:10px;padding-right:10px">
               <a class="nav-link" href="rekapitulasi.php">Rekapitulasi</a>
             </li>
-            <li class="nav-item active" style="padding-left:10px;padding-right:10px">
-              <a class="nav-link" href="#">Tentang Sekolah</a>
-            </li>
             
           </ul>
           <form class="form-inline my-0 my-lg-0" action="data_produk.php" method="get">
@@ -139,7 +142,7 @@
                   <td><?=$row['jurusan'];?></td>
                   <td><?=$row['asal_sekolah'];?></td>
                   <td><?=$row['un'];?></td>
-                  <td><?=$rata2;?></td>
+                  <td><?php echo substr($rata2, 0, -11);?></td>
                   <td><?=$row['alamat'];?></td>
 
                 <?php
